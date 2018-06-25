@@ -3,6 +3,7 @@ const images = document.querySelectorAll(".gallery__thumb");
 for (let image of images) {
     image.style.opacity = "1";
     // image.addEventListener("load", fadeIn);
+    // image.style.opacity = "0";
 }
 
 // function fadeIn() {
