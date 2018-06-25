@@ -3,17 +3,11 @@
     justify-content: space-between;
     align-items: center;
     margin: 50px 0;
-    &__logo {
-        flex: 1;
-    }
     &__title-link {
         font-size: 5.4rem;
         text-transform: uppercase;
         color: #000;
         letter-spacing: 3px;
-    }
-    &__nav {
-        flex: 1;
     }
     &__links {
         display: flex;
@@ -30,6 +24,32 @@
         text-transform: uppercase;
         &--active {
             color: #000;
+        }
+    }
+}
+
+
+// Media Query
+
+@media (max-width: 768px) {
+    .header-main {
+        flex-direction: column;
+        &__logo {
+            margin-bottom: 25px;
+        }
+        &__title-link {
+            letter-spacing: 1.5px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header-main {
+        &__title {
+            text-align: center;
+        }
+        &__title-link {
+            line-height: 1;
         }
     }
 }
