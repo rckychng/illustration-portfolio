@@ -1,14 +1,14 @@
 const images = document.querySelectorAll(".gallery__thumb");
 
 for (let image of images) {
-    image.addEventListener("load", fadeIn);
-    // image.style.opacity = "0";
+    image.style.opacity = "1";
+    // image.addEventListener("load", fadeIn);
 }
 
-function fadeIn() {
+// function fadeIn() {
     // this.style.transition = "opacity 2s";
-    this.style.opacity = "1";
-}
+//     this.style.opacity = "1";
+// }
 
 
 // function fadeIn() {
