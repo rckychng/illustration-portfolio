@@ -1,0 +1,35 @@
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    &__logo {
+        flex: 1;
+    }
+    &__title-link {
+        font-size: 5.4rem;
+        text-transform: uppercase;
+        color: #000;
+        letter-spacing: 3px;
+    }
+    &__nav {
+        flex: 1;
+    }
+    &__links {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__link-container {
+        margin-right: 25px;
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+    &__link {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        &--active {
+            color: #000;
+        }
+    }
+}

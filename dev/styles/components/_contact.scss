@@ -1,0 +1,57 @@
+.contact {
+    &__form {
+        width: 50%;
+    }
+    &__input {
+        border: 1px solid grey;
+        padding: 10px;
+        display: block;
+        border-radius: 0;
+        width: 100%;
+        margin: 10px 0 20px 0;
+        font-size: 1.5rem;
+        &:focus {
+            outline: none;
+        }
+    }
+    &__message {
+        resize: none;
+    }
+    &__title {
+        font-size: 1.5rem;
+        text-transform: none;
+    }
+    &__name {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    &__column {
+        flex: 1;
+        margin-right: 15px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__caption {
+        text-transform: none;
+        & > * {
+            margin-bottom: 5px;
+        }
+    }
+    &__submit {
+        background-color: black;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+        width: auto;
+        padding: 10px 30px;
+        border: 0;
+        &:hover {
+            background-color: #999;
+        }
+    }
+}

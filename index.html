@@ -2,12 +2,125 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>jQuery Sass Boilerplate</title>
+	<title>Rocky Chung | Illustration</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:900" rel="stylesheet">
+	<link type="image/png" href="assets/favicon_01.png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="/public/styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div>Hello</div>
+	<div class="wrapper">
+
+		<!-- HEADER STARTS -->
+		<header class="header-main">
+			<div class="header-main__logo">
+				<h1 class="header-main__title">
+					<a class="header-main__title-link" href="/">Rocky Chung</a>
+				</h1>
+			</div>
+			<nav class="header-main__nav">
+				<ul class="header-main__links">
+					<li class="header-main__link-container">
+						<a class="header-main__link header-main__link--active" href="/">Portfolio</a>
+					</li>
+					<li class="header-main__link-container">
+						<a class="header-main__link" href="/about.html">About</a>
+					</li>
+					<li class="header-main__link-container">
+						<a class="header-main__link" href="/contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- HEADER ENDS -->
+
+		<!-- MAIN STARTS -->
+		<main>
+
+			<!-- GALLERY STARTS -->
+			<section class="gallery">
+				<div class="gallery__grid">
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_01.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--slow" src="assets/thumb_01.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_02.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--normal" src="assets/thumb_02.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_03.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--fast" src="assets/thumb_03.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_04.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--slow" src="assets/thumb_04.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_05.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--normal" src="assets/thumb_05.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_06.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--fast" src="assets/thumb_06.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_07.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--slow" src="assets/thumb_07.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_08.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--normal" src="assets/thumb_08.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_09.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--fast" src="assets/thumb_09.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_10.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--slow" src="assets/thumb_10.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_11.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--normal" src="assets/thumb_11.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_12.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--slow" src="assets/thumb_12.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_13.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--fast" src="assets/thumb_13.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_14.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--normal" src="assets/thumb_14.jpg" alt="">
+					</a>
+					<a class="gallery__thumb-container" data-fancybox="gallery" href="assets/art_15.jpg">
+						<div class="gallery__overlay"></div>
+						<img class="gallery__thumb gallery__thumb--slow" src="assets/thumb_15.jpg" alt="">
+					</a>
+				</div>
+			</section>
+			<!-- GALLERY ENDS -->
+
+		</main>
+		<!-- MAIN ENDS -->
+
+		<!-- FOOTER STARTS -->
+		<footer class="footer-main">
+			<div class="footer-main__copyright">
+				<p class="footer-main__copy">&copy; Rocky Chung 2018</p>
+			</div>		
+		</footer>
+		<!-- FOOTER ENDS -->
+	</div><!-- END OF WRAPPER -->
+
+	<!-- SCRIPTS STARTS -->
 	<script src="/public/scripts/main.js"></script>
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+	<!-- SCRIPTS ENDS -->
 </body>
 </html>

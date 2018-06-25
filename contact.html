@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rocky Chung | Contact</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:900" rel="stylesheet">
+	<link type="image/png" href="assets/favicon_01.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="/public/styles/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="wrapper">
+
+		<!-- HEADER STARTS -->
+		<header class="header-main">
+			<div class="header-main__logo">
+				<h1 class="header-main__title">
+					<a class="header-main__title-link" href="/">Rocky Chung</a>
+				</h1>
+			</div>
+			<nav class="header-main__nav">
+				<ul class="header-main__links">
+					<li class="header-main__link-container">
+						<a class="header-main__link" href="/">Portfolio</a>
+					</li>
+					<li class="header-main__link-container">
+						<a class="header-main__link" href="/about.html">About</a>
+					</li>
+					<li class="header-main__link-container">
+						<a class="header-main__link header-main__link--active" href="/contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- HEADER ENDS -->
+
+		<!-- MAIN STARTS -->
+		<main>
+			
+			<!-- CONTACT STARTS -->
+			<section class="contact">
+				<form action="http://www.focuspocus.io/magic/b855a1e56381a5a3a494173496ae5565" method="POST" autocomplete="on" class="contact__form">
+					<label class="contact__title" for="contact__name">Name</label>
+					<div class="contact__name" id="contact__name">
+						<div class="contact__column">
+							<label class="contact__caption" for="contact__first-name"><input type="text" class="contact__input contact__first-name" name="contact__first-name" id="contact__first-name" required="true">First Name</label>
+						</div>
+						<div class="contact__column">
+							<label class="contact__caption" for="contact__last-name"><input type="text" class="contact__input contact__last-name" name="contact__last-name" id="contact__last-name" required="true">Last Name</label>
+						</div>
+					</div>
+
+					<label class="contact__title" for="contact__subject">Subject</label>
+					<input type="text" class="contact__input contact__subject" name="contact__subject" id="contact__subject" required="true">
+
+					<label class="contact__title" for="contact__email">Email</label>
+					<input type="email" class="contact__input contact__email" name="contact__email" id="contact__email" required="true">
+
+					<label class="contact__title" for="contact__message">Message</label>
+					<textarea class="contact__input contact__message" name="contact__message" id="contact__message" rows="5" cols="20"></textarea>
+
+					<label class="contact__submit visuallyhidden" for="contact__submit">Submit</label>
+					<button type="submit" class="contact__submit" id="contact__submit">Submit</button>
+				</form>
+			</section>
+			<!-- CONTACT ENDS -->
+
+		</main>
+		<!-- MAIN ENDS -->
+
+		<!-- FOOTER STARTS -->
+		<footer class="footer-main">
+			<div class="footer-main__copyright">
+				<p class="footer-main__copy">&copy; Rocky Chung 2018</p>
+			</div>		
+		</footer>
+		<!-- FOOTER ENDS -->
+	</div><!-- END OF WRAPPER -->
+
+	<!-- SCRIPTS STARTS -->
+	<script src="/public/scripts/main.js"></script>
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+	<!-- SCRIPTS ENDS -->
+</body>
+</html>
